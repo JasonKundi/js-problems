@@ -12,7 +12,7 @@ const ratingsAdjuster = (ratings, minThreshold, maxThreshold) => {
 }
 
 const ratings = [1,3,5,7,9];
-const min = 3;
-const max = 7;
+const min = 2;
+const max = 8;
 
 console.log(ratingsAdjuster(ratings, min, max));
