@@ -5,7 +5,6 @@ let string = "jack bauer is the best agent";
 
 const makeSentence = (string) => {
   const capitalStr = string.charAt(0).toUpperCase() + string.slice(1);
-
   let fullStop;
   if (capitalStr.charAt(capitalStr.length - 1) != ".") {
     fullStop = capitalStr + ".";
