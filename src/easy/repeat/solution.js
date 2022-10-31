@@ -10,9 +10,7 @@ const repeatStr = (str) => {
         let result = []
         console.log(splitStr[i],"this is split string")
         result.push(splitStr[i].repeat(2));
-        if (splitStr[i] == true) {
-            continue;
-        }
+        
         return result
     }
 
