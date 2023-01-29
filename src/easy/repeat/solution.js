@@ -1,23 +1,11 @@
-
-
-
-
 const repeatStr = (str) => {
-    console.log("String is in function:", str)
-    const splitStr = str.split('')
+    
+  const splitStr = str.split("").forEach(function (letter) {
+    let doubleLetter = letter.repeat(2);
+    let result = doubleLetter;
+    return result
+  })
 
-    for (let i = 0; i < splitStr.length; i++) {
-        let result = []
-        console.log(splitStr[i],"this is split string")
-        result.push(splitStr[i].repeat(2));
-        if (splitStr[i] == true) {
-            continue;
-        }
-        return result
-    }
-
-
-}
-
+};
 
 console.log(repeatStr("string"));
